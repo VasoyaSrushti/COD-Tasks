@@ -22,10 +22,10 @@ def clear():
 
 # Function to add hover effect on buttons
 def on_enter(e):
-    e.widget['background'] = 'lightblue'
+    e.widget['background'] = 'gray'
 
 def on_leave(e):
-    e.widget['background'] = 'SystemButtonFace'
+    e.widget['background'] = 'lightgray'
 
 # Create the main window
 root = tk.Tk()
